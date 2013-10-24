@@ -1,0 +1,8 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
+*.swp
+*.tps
+*Backup*.png
