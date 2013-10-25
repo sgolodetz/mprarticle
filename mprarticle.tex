@@ -132,6 +132,39 @@ tabsize=4
 
 TODO
 
+\begin{itemize}
+\item Previous article focused on object-environment collision detection.
+\item This one explains how to detect collisions between objects.
+\item The next one will explain how to process and resolve detected collisions.
+\item There are a variety of algorithms for detecting collisions between objects, e.g.~GJK \cite{gilbert88}, etc. A common theme is the use of Minkowski differences - explain relevance.
+\item The algorithm that is the focus of this paper is called XenoCollide \cite{snethen08}. It's a specific variant of Minkowski Portal Refinement (MPR). The original article does a great job of explaining how the algorithm itself works, but didn't include the details of how you use it for swept collision detection, so I'd like to illustrate that here. Explaining what's going on is also an important part of explaining how the physics system works in \emph{hesperus}.
+\item Give a brief summary of how MPR works and explain the layout of the article.
+\end{itemize}
+
+\section{Minkowski Differences}
+
+TODO: Explain Minkowski differences in more detail and illustrate their relevance to collision detection.
+
+\section{Support Mappings}
+
+TODO: Explain their role in representing different object shapes.
+
+\section{Portal Refinement}
+
+TODO
+
+\section{Swept Collision Detection}
+
+TODO
+
+\section{Examples}
+
+TODO
+
+\section{Conclusion}
+
+TODO
+
 \section{Acknowledgements}
 
 I would like to thank the editorial team for the effort that has gone into typesetting this article for publication. Many thanks also to the rest of the Overload team for reviewing this article and suggesting ways in which to improve it.
